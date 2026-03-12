@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Student Feedback System</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🔥 Student Feedback</h1>
+
+<input id="name" placeholder="Student Name">
+
+<input id="regno" placeholder="Register Number">
+
+<input id="department" placeholder="Department">
+<input id="subject" placeholder="Subject Name">
+
+
+<input id="teacher" placeholder="Teacher Name">
+
+<select id="rating">
+
+<option value="">Select Rating</option>
+
+<option value="1">⭐ 1</option>
+<option value="2">⭐⭐ 2</option>
+<option value="3">⭐⭐⭐ 3</option>
+<option value="4">⭐⭐⭐⭐ 4</option>
+<option value="5">⭐⭐⭐⭐⭐ 5</option>
+
+</select>
+
+<textarea id="feedback" placeholder="Write feedback"></textarea>
+
+<button onclick="submitFeedback()">Submit Feedback</button>
+
+</div>
+
+
+
+<div id="popup" class="popup">
+
+<div class="popup-box">
+
+<h2>🔥 Success</h2>
+
+<p>Feedback submitted successfully</p>
+
+<button onclick="closePopup()">OK</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+<footer class="footer">
+Developed by <span>RaghulRaja</span>
+</footer>
+</body>
+
+</html>
