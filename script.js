@@ -8,7 +8,8 @@ var teacher=document.getElementById("teacher").value;
 var rating=document.getElementById("rating").value;
 var feedback=document.getElementById("feedback").value;
 
-var url="https://script.google.com/macros/s/AKfycbxV4s5XFkj40Gci7BsTlmUBtrdursJIwDqiIEbIPTp0LVCUNG44CZLZNwLF89BtzllE/exec";
+var url="https://script.google.com/macros/s/AKfycby8WKwUTYJrcqh_IcwGV06wMZnuAawu8V_4q3TP9QI_6LK5W4vLYYHsdA4gV4qcWeMwbw/exec";
+
 
 url += "?name="+name+
 "&regno="+regno+
